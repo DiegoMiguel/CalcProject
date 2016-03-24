@@ -5,7 +5,7 @@ import java.util.Scanner;
  */
 
 /**
- * @author ads
+ * @author Diego Miguel
  *
  */
 public class Main {
