@@ -18,7 +18,7 @@ public class Main {
 	public static void main(String[] args) {
 		int opcaoEscolhida, numeroEhPar = 0;
 		double n1 = 0, n2 = 0;
-
+                
 		do {
 			opcaoEscolhida = menu();
 			
@@ -54,11 +54,11 @@ public class Main {
 			default:
 				System.out.println("Valor Invalido!");
 				break;
-			}
+			}	
 		} while (opcaoEscolhida != 0);
 	}
 	
-	private static double lerNumero(String mensagem){
+	private static double lerNumero(String mensagem){	
 		System.out.print(mensagem);
 		return leitor.nextDouble();
 	}
